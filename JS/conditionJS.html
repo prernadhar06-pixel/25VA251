@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //age validation for vote casting
+
+        let age=23;
+        if(age>=18){
+            console.log(age+"is a valid age of vote casting!");
+        }
+
+        //if... else------
+        let myAge=20;
+
+        if(myAge<18){
+            console.log("not valid age");
+        }else{
+            console.log("valid age");
+        }
+        //switch......
+        let grade='A';
+
+        switch(grade){
+            case 'A':result="first division";
+                break;
+            case 'B':result="second division";
+                break;
+            case 'C':result="third division";
+                break;
+            default:result="fail";
+        }
+        console.log(result);
+
+        let marks=35;
+
+        if(marks>=60){
+            console.log("first division");
+        }
+        else if(marks>=40 && marks<60){
+            console.log("second division");
+        }
+        else if(marks>=33 && marks<40){
+            console.log("third division");
+        }
+        else{
+            console.log("fail");
+        }
+    </script>
+</body>
+</html>
